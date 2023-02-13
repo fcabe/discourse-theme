@@ -1,0 +1,41 @@
+@import "common/foundation/variables";
+
+.hello-world-banner {
+    height: 300px;
+    width: 100%;
+    background: var(--quaternary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.hello-world {
+    font-size: 8em;
+    color: var(--secondary);
+}
+
+.footer {
+  background: $primary-low;
+  .wrap {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    flex: 1;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+    margin: 1em;
+    font-size: $font-up-1;
+    color: $secondary;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    img {
+      max-height: 40px;
+    }
+  }
+}
